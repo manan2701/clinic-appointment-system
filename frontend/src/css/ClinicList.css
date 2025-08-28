@@ -1,0 +1,141 @@
+.clinic-list-page {
+    display: flex;
+    gap: 2rem;
+}
+
+.filter-sidebar {
+    flex: 0 0 300px;
+    background-color: var(--surface-color);
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-sm);
+    height: fit-content;
+}
+
+.filter-sidebar h3 {
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 1rem;
+}
+
+.clinics-main {
+    flex-grow: 1;
+}
+
+.search-bar {
+    margin-bottom: 2rem;
+    display: flex;
+}
+
+.search-bar input {
+    flex-grow: 1;
+    padding: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius) 0 0 var(--border-radius);
+    font-size: 1rem;
+}
+
+.search-bar button {
+    border-radius: 0 var(--border-radius) var(--border-radius) 0;
+}
+
+.clinics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.clinic-card {
+    background-color: var(--surface-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-md);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.clinic-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.clinic-card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.clinic-card-content {
+    padding: 1.5rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.clinic-card-content h3 {
+    margin-top: 0;
+    color: var(--primary-color);
+}
+
+.clinic-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+}
+
+.clinic-rating {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.clinic-rating .stars {
+    color: #F5A623;
+}
+
+.clinic-card-footer {
+    margin-top: auto;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-color);
+}
+
+/* Gradient accented cards */
+.clinic-card.gradient-aqua {
+    background: linear-gradient(135deg, #E6FFFA 0%, #A8E6E0 60%, #DFF7F4 100%);
+}
+
+.clinic-card.gradient-teal-navy {
+    background: linear-gradient(135deg, rgba(23,162,184,0.12), rgba(11,60,93,0.12));
+}
+
+.clinic-card.gradient-border {
+    background: var(--surface-color);
+}
+.clinic-card.gradient-border::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    padding: 1px;
+    border-radius: inherit;
+    background: linear-gradient(135deg, #17A2B8, #0B3C5D);
+    -webkit-mask: 
+      linear-gradient(#000 0 0) content-box, 
+      linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude;
+  }
+
+@media (max-width: 992px) {
+    .clinic-list-page {
+        flex-direction: column;
+    }
+
+    .filter-sidebar {
+        width: 100%;
+    }
+}
