@@ -39,7 +39,7 @@ const ClinicDetailPage = () => {
 	if (!clinic) return null;
 	return (
 		<div className="clinic-detail-page">
-			<div className="clinic-detail-header" style={{backgroundImage: `url(${clinic.photo})`}}>
+			<div className="clinic-detail-header" style={{backgroundImage: `url(${clinic.photo || "https://placehold.co/600x400/A8D5BA/FFFFFF?text=Clinic"})`}}>
 				<div className="header-overlay">
 					<h1>{clinic.name}</h1>
 					<div className="header-info">
