@@ -1,0 +1,57 @@
+[{
+  "_id": {
+    "$oid": "68b165fc0f7a1b5fe65b7402"
+  },
+  "name": "Dr. Arjun Mehta",
+  "specialization": "Cardiologist",
+  "bio": "Dr. Sharma is dedicated to the health and well-being of children from infancy to adolescence. She focuses on growth, nutrition, and vaccinations while building strong trust with families.",
+  "photo": "/assets/1756456444410.jpg",
+  "clinicId": {
+    "$oid": "68a60a61a72d3ac112b7bcd4"
+  },
+  "createdAt": {
+    "$date": "2025-08-29T08:34:04.419Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-29T08:34:04.419Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68b166910f7a1b5fe65b7425"
+  },
+  "name": "Dr. Priya Sharma",
+  "specialization": "Pediatrician",
+  "bio": "Dr. Sharma is dedicated to the health and well-being of children from infancy to adolescence. She focuses on growth, nutrition, and vaccinations while building strong trust with families.",
+  "photo": "/assets/1756456593044.avif",
+  "clinicId": {
+    "$oid": "68a60a61a72d3ac112b7bcd4"
+  },
+  "createdAt": {
+    "$date": "2025-08-29T08:36:33.047Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-29T08:36:33.047Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68b1670e0f7a1b5fe65b7447"
+  },
+  "name": "Dr. Neeraj Verma",
+  "specialization": "Orthopedic",
+  "bio": "Dr. Verma is an expert in bone, joint, and spine disorders. He has performed numerous successful knee and hip replacements and advocates for early physiotherapy-based treatments.",
+  "photo": "/assets/1756456718260.jpg",
+  "clinicId": {
+    "$oid": "68a74d227806fb3ba5317de9"
+  },
+  "createdAt": {
+    "$date": "2025-08-29T08:38:38.262Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-29T08:38:38.262Z"
+  },
+  "__v": 0
+}]

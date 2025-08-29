@@ -1,0 +1,71 @@
+[{
+  "_id": {
+    "$oid": "68a60a61a72d3ac112b7bcd4"
+  },
+  "name": "abc123",
+  "email": "b@b.b",
+  "password": "$2b$10$zFROge1cYRFpGZNBdzgFzud0gLoViejrNdXKns3xQSuX2Y191I5nC",
+  "role": "Clinic",
+  "licenseNumber": "111111",
+  "isApproved": "approved",
+  "charges": 150,
+  "doctorDetails": [],
+  "createdAt": {
+    "$date": "2025-08-20T17:48:17.034Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-29T08:31:04.401Z"
+  },
+  "__v": 0,
+  "address": {
+    "city": "sur",
+    "street": "A 18, Sumeru City Mall"
+  },
+  "photo": "/assets/1756456264393.jpeg",
+  "image": "/assets/1755794021517.jpg"
+},
+{
+  "_id": {
+    "$oid": "68a70fba47f5503fad2b1762"
+  },
+  "name": "asdsd",
+  "email": "abc3@gmail.com",
+  "password": "$2b$10$mqsXto7lJmQKVp/d3nVWNezrUIY67uauMHMjkfGpWXV929lEJb5WS",
+  "role": "Clinic",
+  "licenseNumber": "CLINIC-12345",
+  "isApproved": "approved",
+  "charges": 0,
+  "doctorDetails": [],
+  "createdAt": {
+    "$date": "2025-08-21T12:23:22.311Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-21T12:23:55.391Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a74d227806fb3ba5317de9"
+  },
+  "name": "fghbfchbn",
+  "email": "sd@as.com",
+  "password": "$2b$10$CRK/eCUHt5qXMKWKNzVJU.0Aiz273ZMH.AtWyk1rhJvJn/s6Ru/Hu",
+  "role": "Clinic",
+  "licenseNumber": "CLINIC-67890",
+  "isApproved": "approved",
+  "charges": 50,
+  "photo": "/assets/1756456629305.jpg",
+  "doctorDetails": [],
+  "createdAt": {
+    "$date": "2025-08-21T16:45:22.153Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-29T08:37:58.748Z"
+  },
+  "__v": 0,
+  "address": {
+    "city": "surat",
+    "street": "A 18, Sumeru City Mall"
+  }
+}]

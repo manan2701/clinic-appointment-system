@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "68a9e194762b1264b8b7b934"
+  },
+  "userId": {
+    "$oid": "68a87f5ca60e745e98cc2e8c"
+  },
+  "clinicId": {
+    "$oid": "68a60a61a72d3ac112b7bcd4"
+  },
+  "rating": 5,
+  "comment": "good exp\n",
+  "createdAt": {
+    "$date": "2025-08-23T15:43:16.050Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-23T15:43:16.050Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a9e1e8762b1264b8b7b959"
+  },
+  "userId": {
+    "$oid": "68a87f5ca60e745e98cc2e8c"
+  },
+  "clinicId": {
+    "$oid": "68a60a61a72d3ac112b7bcd4"
+  },
+  "rating": 5,
+  "comment": "dfdfg",
+  "createdAt": {
+    "$date": "2025-08-23T15:44:40.203Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-23T15:44:40.203Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a9e1eb762b1264b8b7b95e"
+  },
+  "userId": {
+    "$oid": "68a87f5ca60e745e98cc2e8c"
+  },
+  "clinicId": {
+    "$oid": "68a60a61a72d3ac112b7bcd4"
+  },
+  "rating": 2,
+  "comment": "dfgfg",
+  "createdAt": {
+    "$date": "2025-08-23T15:44:43.770Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-23T15:44:43.770Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a9e1ee762b1264b8b7b963"
+  },
+  "userId": {
+    "$oid": "68a87f5ca60e745e98cc2e8c"
+  },
+  "clinicId": {
+    "$oid": "68a60a61a72d3ac112b7bcd4"
+  },
+  "rating": 1,
+  "comment": "fgbfgdgh",
+  "createdAt": {
+    "$date": "2025-08-23T15:44:46.362Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-23T15:44:46.362Z"
+  },
+  "__v": 0
+}]

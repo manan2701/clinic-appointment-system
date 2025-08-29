@@ -1,0 +1,54 @@
+[{
+  "_id": {
+    "$oid": "68a60b1a129dbfdd5b44110f"
+  },
+  "name": "zbc",
+  "email": "bordamanan@gmail.com",
+  "password": "$2b$10$6V8nYMdkiOD/Sn0VDkoG6el.8IXT.dHjzyqfam7kC3Qv/gmKaRMO.",
+  "role": "Admin",
+  "dob": "2025-08-14",
+  "createdAt": {
+    "$date": "2025-08-20T17:51:22.209Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-20T17:51:22.209Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a87f5ca60e745e98cc2e8c"
+  },
+  "name": "Manan Borda",
+  "email": "a@a.com",
+  "password": "$2b$10$AYWbYDhuaLDmThE2bg12g.D87KcY3DVtviepWWzV4AaQr6Y8EhtBi",
+  "role": "User",
+  "dob": "2025-08-11",
+  "createdAt": {
+    "$date": "2025-08-22T14:31:56.813Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-25T14:24:16.452Z"
+  },
+  "__v": 0,
+  "address": "Vrajdham Society, Plot No-14, Ground Floor, Mota Varachha",
+  "gender": "Male",
+  "photo": ""
+},
+{
+  "_id": {
+    "$oid": "68b15e827f55a3a884c7fe27"
+  },
+  "name": "sdfsd",
+  "email": "gdfgdf@sdsdf.xdfxdfg",
+  "password": "$2b$10$0dbEd.X2vS0T5/pwltn.jeRqugqjoDdmF.7nihdvOiIPXSCQrnzr6",
+  "role": "User",
+  "dob": "2025-08-12",
+  "createdAt": {
+    "$date": "2025-08-29T08:02:10.069Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-29T08:02:10.069Z"
+  },
+  "__v": 0
+}]
