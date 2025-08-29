@@ -68,7 +68,7 @@ const ClinicStats = () => {
         <ResponsiveContainer width="100%" height={300}>
           <BarChart data={weeklyAppointments}>
             <CartesianGrid strokeDasharray="1 1" />
-            <XAxis dataKey="name" />
+            <XAxis dataKey="date" />
             <YAxis domain={[0, (dataMax) => dataMax + 2]} allowDecimals={false} />
             <Tooltip />
             <Bar dataKey="count" fill="#0b3c5d" name="Appointments" />
